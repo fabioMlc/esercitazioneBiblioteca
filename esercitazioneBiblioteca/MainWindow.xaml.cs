@@ -24,5 +24,15 @@ namespace esercitazioneBiblioteca
         {
             InitializeComponent();
         }
+
+        private void btnLibro_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBiblioteca_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
