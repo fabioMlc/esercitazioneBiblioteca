@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnLibro" HorizontalAlignment="Left" Height="28" Margin="202,18,0,0" VerticalAlignment="Top" Width="80" Content="esegui libro" Click="btnLibro_Click"/>
+        <Button x:Name="btnBiblioteca" Content="esegui biblioteca" HorizontalAlignment="Left" Height="27" Margin="194,70,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Height="28" Margin="69,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.768,0.68"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Height="27" Margin="69,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <TextBox x:Name="txtPagine" HorizontalAlignment="Left" Height="28" Margin="69,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <TextBox x:Name="txtOrariApertura" HorizontalAlignment="Left" Height="28" Margin="69,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="txtOrariChiusura" HorizontalAlignment="Left" Height="27" Margin="69,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="txtNomeBiblioteca" HorizontalAlignment="Left" Height="28" Margin="69,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.395,-0.927"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="titolo" Width="45"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" Text="autore"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="pagine" Width="45" RenderTransformOrigin="0.533,1.068"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="biblioteca" Width="55" RenderTransformOrigin="0.533,6.331"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" Text="apertura"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="chiusura" Width="45"/>
+
     </Grid>
 </Window>
